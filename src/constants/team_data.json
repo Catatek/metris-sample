@@ -1,0 +1,51 @@
+[
+  {
+    "label": "Alex Duffner",
+    "img": "../images/alex-headshot.jpg"
+  },
+  {
+    "label": "Stephen Ramirez",
+    "img": "../images/stephen-headshot.png"
+  },
+ 
+  {
+    "label": "Will Cheshier",
+    "img": "../images/cheshier-headshot.jpg"
+  },
+  {
+    "label": "Adam Tsang",
+    "img": "../images/adam-headshot.jpg"
+  },
+  {
+    "label": "Toby Egbunda",
+    "img": "../images/toby-headshot.jpg"
+  },
+  {
+    "label": "Josue Pablo Martinez",
+    "img": "../images/josue-headshot.jpg"
+  },
+  {
+    "label": "Maryclaire Mannard",
+    "img": "../images/maryclaire-headshot.jpg"
+  },
+  {
+    "label": "Raj Vanteddu",
+    "img": "../images/raj-headshot.jpg"
+  },
+  {
+    "label": "Jesse Brunelle",
+    "img": "../images/jess-headshot.jpg"
+  },
+  {
+    "label": "Getro Jean-Claude",
+    "img": "../images/getro-headshot.jpg"
+  },
+  {
+    "label": "David Dauman",
+    "img": "../images/david-headshot.jpg"
+  },
+  {
+    "label": "Marilyn Alverez",
+    "img": "../images/marilyn-headshot.png"
+  }
+]

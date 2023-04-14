@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Real-time Monitoring",
+    "img": "../images/roadmap-icon.png",
+    "value": "roadmapping",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  },
+  {
+    "label": "Advanced Control for Local Resources",
+    "img": "../images/risk-icon.png",
+    "value": "risk",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  },
+  {
+    "label": "Scheduling and Markets Infrastructure",
+    "img": "../images/strategic-icon.png",
+    "value": "implementations",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  },
+  {
+    "label": "Analytics and Forecasting",
+    "img": "../images/product-mgmt-icon.png",
+    "value": "management",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  },
+  {
+    "label": "Revenue Optimization",
+    "img": "../images/design-icon.png",
+    "value": "architecture",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  },
+  {
+    "label": "Peer-to-peer Trading",
+    "img": "../images/software-icon.png",
+    "value": "software_hardware",
+    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+  }
+]

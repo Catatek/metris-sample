@@ -1,0 +1,10 @@
+[
+  { "img": "../images/athena-logo.png", "label": "Athena" },
+  { "img": "../images/cluey-logo.png", "label": "Cluey" },
+  { "img": "../images/parakeet-logo.png", "label": "Parakeet" },
+  { "img": "../images/achievece-logo.png", "label": "AchieveCE" },
+  { "img": "../images/ritual-logo.png", "label": "Ritual" },
+  { "img": "../images/pinellas-logo.png", "label": "Pinellas" },
+  { "img": "../images/ondeck-logo.png", "label": "OnDeck" },
+  { "img": "../images/chezie-logo.png", "label": "Chezie" }
+]

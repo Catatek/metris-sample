@@ -1,0 +1,10 @@
+[
+  { "img": "../images/react-icon.png", "label": "React.js" },
+  { "img": "../images/next-icon.png", "label": "Next.js" },
+  { "img": "../images/node-icon.png", "label": "Node.js" },
+  { "img": "../images/mongo-icon.png", "label": "MongoDB" },
+  { "img": "../images/python-icon.png", "label": "Python" },
+  { "img": "../images/docker-icon.png", "label": "Docker" },
+  { "img": "../images/graphql-icon.png", "label": "GraphQL" },
+  { "img": "../images/cplusplus-icon.png", "label": "C++" }
+]
