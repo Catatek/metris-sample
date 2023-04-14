@@ -7,7 +7,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     siteUrl: "https://williamwhatley.io",
-    title: "william-whatley-portfolio",
+    title: "metris-energy",
   },
   plugins: [
     "gatsby-plugin-styled-components",
