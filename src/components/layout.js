@@ -21,8 +21,8 @@ const GlobalStyle = createGlobalStyle`
 export const Layout = ({ children }) => (
   <Wrapper>
     <Helmet>
-      <title>Meter Energy</title>
-      <meta property="og:title" content="Meter Energy" />
+      <title>Metris Energy</title>
+      <meta property="og:title" content="Metris Energy" />
       <meta
         property="og:image"
         content="https://i.postimg.cc/QtMywJsW/icon.png"

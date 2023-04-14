@@ -3,36 +3,36 @@
     "label": "Real-time Monitoring",
     "img": "../images/roadmap-icon.png",
     "value": "roadmapping",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "Gain comprehensive, data-driven visibility."
   },
   {
     "label": "Advanced Control for Local Resources",
     "img": "../images/risk-icon.png",
     "value": "risk",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "Leverage DERs for cost, reliability, and sustainability."
   },
   {
     "label": "Scheduling and Markets Infrastructure",
     "img": "../images/strategic-icon.png",
     "value": "implementations",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "Engage customers in a local energy community."
   },
   {
     "label": "Analytics and Forecasting",
     "img": "../images/product-mgmt-icon.png",
     "value": "management",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "Put your data to work."
   },
   {
     "label": "Revenue Optimization",
     "img": "../images/design-icon.png",
     "value": "architecture",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "Understand how to optimize DER revenue"
   },
   {
     "label": "Peer-to-peer Trading",
     "img": "../images/software-icon.png",
     "value": "software_hardware",
-    "description": "I like to observe people and always ask the right questions. This allows me to understand your concerns, and design for your unique needs."
+    "description": "online marketplace where prosumers and consumers can trade electricity."
   }
 ]

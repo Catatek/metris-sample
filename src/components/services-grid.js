@@ -120,7 +120,7 @@ export const ServicesGrid = ({ content }) => {
       <Container>
         <StyledColumn>
           <SectionSubtitle>Features</SectionSubtitle>
-          <Title>How we empower your DER operations</Title>
+          <Title>The Metris Grid Management Platform</Title>
           <Text>
             Leveraging our cutting-edge software platform, our mission is to
             equip utilities and energy providers with the tools to tackle

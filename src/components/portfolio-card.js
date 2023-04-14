@@ -27,58 +27,29 @@ const Div = styled.div`
 
 const StyledImage = styled(GatsbyImage)`
   position: absolute;
-  ${({ type }) =>
-    type === "Parakeet" &&
-    css`
-      right: -50px;
-      top: 35%;
-      width: 400px;
-    `}
-  ${({ type }) =>
-    type === "UrbanCrop" &&
-    css`
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: -155px;
-    `}
-  ${({ type }) =>
-    type === "Athena Alliance" &&
-    css`
-      left: 50%;
-      transform: translateX(-50%);
-      width: 500px;
-    `}
-  ${({ type }) =>
-    type === "Cluey" &&
-    css`
-      bottom: -115px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 200px;
-    `}
+  right: -50px;
+  top: 20%;
+  width: 400px;
 `;
 
 export const PortfolioCard = ({
   title,
   gradientStart,
   gradientEnd,
-  productType,
-  slug,
+  type,
   img,
 }) => {
   return (
-    <Link to={`/work/${slug}`}>
-      <Wrapper>
-        <Div>
-          <Container gradientStart={gradientStart} gradientEnd={gradientEnd}>
-            <StyledImage type={title} image={getImage(img)} />
-          </Container>
-          <SectionSubtitle>{productType}</SectionSubtitle>
-          <Title bold margin="4px 0">
-            {title}
-          </Title>
-        </Div>
-      </Wrapper>
-    </Link>
+    <Wrapper>
+      <Div>
+        <Container gradientStart={gradientStart} gradientEnd={gradientEnd}>
+          <StyledImage type={title} image={getImage(img)} />
+        </Container>
+        <SectionSubtitle>{type}</SectionSubtitle>
+        <Title bold margin="4px 0">
+          {title}
+        </Title>
+      </Div>
+    </Wrapper>
   );
 };

@@ -55,7 +55,7 @@ export const Footer = () => (
       <NavLink footerNav>Research</NavLink>
       <NavLink footerNav>About</NavLink> */}
 
-      <TrademarkText>© William Whatley 2022</TrademarkText>
+      <TrademarkText>© Metris Energy 2023</TrademarkText>
     </Container>
   </Wrapper>
 );

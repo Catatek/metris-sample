@@ -56,7 +56,7 @@ export const Navigation = () => (
           Schedule Call
         </Button>
       </StyledRow>
-      <Burger />
+      {/* <Burger /> */}
     </Container>
   </Wrapper>
 );

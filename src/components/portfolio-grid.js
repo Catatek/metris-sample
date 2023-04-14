@@ -38,28 +38,26 @@ export const PortfolioGrid = ({ portfolio }) => {
   return (
     <Wrapper>
       <Container>
-        <SectionSubtitle>My Projects</SectionSubtitle>
-        <Title>Things I love working on</Title>
+        <SectionSubtitle>Who We Serve</SectionSubtitle>
+        {/* <Title>
+          We equip grid operators with the tools they need to orchestrate an
+          increasingly complex grid.
+        </Title> */}
       </Container>
       <Grid>
         {portfolio &&
           portfolio.map(({ node }, index) => (
             <PortfolioCard
               key={index}
-              slug={node.slug}
+              // slug={node.slug}
               title={node.title}
-              productType={node.productType}
-              gradientStart={node.gradient[0]}
-              gradientEnd={node.gradient[1]}
-              img={node.splash}
+              // productType={productType}
+              gradientStart={node.gradientStart}
+              gradientEnd={node.gradientEnd}
+              img={node.img}
             />
           ))}
       </Grid>
-      <Column alignItems="center" margin="24px 0 0 0">
-        <Link to="/work">
-          <Button>See More Work</Button>
-        </Link>
-      </Column>
     </Wrapper>
   );
 };

@@ -7,7 +7,7 @@ export const Logo = () => {
       src="../images/metris_logo.png"
       alt="William Whatley Logo"
       placeholder="blurred"
-      width={200}
+      width={150}
     />
   );
 };

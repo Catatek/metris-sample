@@ -43,6 +43,14 @@ const StyledColumn = styled(Column)`
   `}
 `;
 
+const ImageWrapper = styled(Column)`
+  ${responsive.md`
+    width: 50%;
+    max-width: 800px;
+    margin-bottom: 0;
+  `}
+`;
+
 export const Splash = ({
   sectionSubtitle,
   sectionTitle,
@@ -70,14 +78,13 @@ export const Splash = ({
             </Button>
           )}
         </StyledColumn>
-
-        <StaticImage
-          src="../images/meter_splash.png"
-          alt="William Whatley Logo"
-          placeholder="blurred"
-          width={800}
-          style={{ opacity: 0.9 }}
-        />
+        <ImageWrapper>
+          <StaticImage
+            src="../images/meter_splash.png"
+            alt="Metris Energy Logo"
+            placeholder="blurred"
+          />
+        </ImageWrapper>
       </Container>
     </Wrapper>
   );

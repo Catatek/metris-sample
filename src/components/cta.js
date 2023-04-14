@@ -24,19 +24,17 @@ export const Cta = () => (
   <Wrapper>
     <Container>
       <StaticImage
-        src="../images/icon-transparent.png"
-        alt="William Whatley Icon"
+        src="../images/metris_icon.png"
+        alt="Metris Icon"
         placeholder="blurred"
         width={60}
         style={{ marginBottom: 48 }}
       />
       <SectionSubtitle>Contact</SectionSubtitle>
-      <Title>Let’s build something together</Title>
+      <Title>Transition community energy</Title>
       <Text>
-        If you’re ready to take your project to the next level, contact me
-        today. I’m always excited to discover new projects, and connect with
-        talented people who have a vision for their business. Drop me a line and
-        I’ll get back to you.
+        The Metris grid management platform functions as the preferred software
+        solution for engineering, power supply, and operations groups.
       </Text>
       <Button
         marginTop

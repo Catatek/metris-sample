@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Community Utilities",
+    "gradientStart": "ffbf56",
+    "gradientEnd": "ef733d",
+    "img": "../images/community.png"
+  },
+  {
+    "title": "Investor Utilities",
+    "gradientStart": "135eb7",
+    "gradientEnd": "b058be",
+    "img": "../images/investor.png"
+  },
+  {
+    "title": "Generation Providers",
+    "gradientStart": "fa6d5c",
+    "gradientEnd": "fdd189",
+    "img": "../images/generation.png"
+  }
+]
