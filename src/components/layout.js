@@ -25,7 +25,7 @@ export const Layout = ({ children }) => (
       <meta property="og:title" content="Metris Energy" />
       <meta
         property="og:image"
-        content="https://i.postimg.cc/QtMywJsW/icon.png"
+        content="https://i.postimg.cc/85nzM7d6/metris-logo.png"
       />
     </Helmet>
     <GlobalStyle />

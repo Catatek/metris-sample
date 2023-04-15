@@ -14,7 +14,10 @@ import { openPopupWidget } from "react-calendly";
 const Wrapper = styled.div`
   height: 100%;
   width: 100%;
-  padding: 100px 0;
+  padding: 40px 0;
+  ${responsive.md`
+    padding: 100px 0;
+  `}
 `;
 
 const Container = styled.div`
