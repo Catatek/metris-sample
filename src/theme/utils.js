@@ -5,7 +5,7 @@ export const theme = {
   gold: "#d3a253",
   lightGrey: "#d8d8d8",
   white: "#fff",
-  purple: "#6046cf",
+  purple: "#44FFD1",
   lightPurple: "#b379e0",
   secondaryGrey: "#1c1d1f",
   pink: "#C8436F",

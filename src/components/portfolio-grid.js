@@ -39,10 +39,7 @@ export const PortfolioGrid = ({ portfolio }) => {
     <Wrapper>
       <Container>
         <SectionSubtitle>Who We Serve</SectionSubtitle>
-        {/* <Title>
-          We equip grid operators with the tools they need to orchestrate an
-          increasingly complex grid.
-        </Title> */}
+        <Title>Powering The Future</Title>
       </Container>
       <Grid>
         {portfolio &&

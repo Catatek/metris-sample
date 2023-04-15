@@ -99,7 +99,7 @@ export const Button = styled.button`
   border-radius: 8px;
   padding: 0 16px;
   background-color: ${theme.purple};
-  color: ${theme.white};
+  color: ${theme.offBlack};
   outline: none;
   border: none;
   cursor: pointer;

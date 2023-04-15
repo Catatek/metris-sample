@@ -1,6 +1,6 @@
 [
   {
-    "label": "Real-time Monitoring",
+    "label": "Real-Time Monitoring",
     "img": "../images/roadmap-icon.png",
     "value": "roadmapping",
     "description": "Gain comprehensive, data-driven visibility."
@@ -30,7 +30,7 @@
     "description": "Understand how to optimize DER revenue"
   },
   {
-    "label": "Peer-to-peer Trading",
+    "label": "Peer-To-Peer Trading",
     "img": "../images/software-icon.png",
     "value": "software_hardware",
     "description": "online marketplace where prosumers and consumers can trade electricity."
