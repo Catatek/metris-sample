@@ -111,6 +111,10 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   margin-top: ${({ marginTop }) => marginTop && "12px"};
+  transition: 250ms;
+  &:hover {
+    background-color: #88ffe2;
+  }
 `;
 
 // MISC

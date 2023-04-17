@@ -27,6 +27,10 @@ export const Layout = ({ children }) => (
         property="og:image"
         content="https://i.postimg.cc/zvbKgZhq/metris-logo.png"
       />
+      <meta
+        property="og:description"
+        content="The Next Gen Utility Platform for Powering the Future. Software for Smart, Renewable Grid Orchestration"
+      />
     </Helmet>
     <GlobalStyle />
     <Navigation />
