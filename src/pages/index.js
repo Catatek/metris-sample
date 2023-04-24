@@ -24,9 +24,9 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Splash
-        sectionSubtitle="Next Gen Utility Platform"
-        sectionTitle="Software for Smart, Renewable Grid Orchestration"
-        sectionText="Experience our comprehensive grid management platform, designed to offer system-wide visibility and enhanced control capabilities, tailored for the evolving landscape of distributed energy resources and a sustainable future."
+        sectionSubtitle="Monitor, manage, monetize"
+        sectionTitle="Software for Smart, Renewable Asset Management"
+        sectionText="Experience our comprehensive renewables management platform, tailored for the evolving landscape of distributed energy resources and a sustainable future. Our platform is designed to offer system-wide visibility, enhanced administrative capabilities, and performance analytics."
         showBtn
         type="home"
       />
@@ -59,6 +59,7 @@ export const query = graphql`
       edges {
         node {
           title
+          text
           gradientStart
           gradientEnd
           img {

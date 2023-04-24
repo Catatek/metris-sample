@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { Title, SectionSubtitle, responsive } from "theme";
+import { Title, SectionSubtitle, responsive, Text } from "theme";
 import { Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
@@ -28,12 +28,13 @@ const Div = styled.div`
 const StyledImage = styled(GatsbyImage)`
   position: absolute;
   right: -50px;
-  top: 20%;
+  top: 25%;
   width: 400px;
 `;
 
 export const PortfolioCard = ({
   title,
+  text,
   gradientStart,
   gradientEnd,
   type,
@@ -43,12 +44,10 @@ export const PortfolioCard = ({
     <Wrapper>
       <Div>
         <Container gradientStart={gradientStart} gradientEnd={gradientEnd}>
-          <StyledImage type={title} image={getImage(img)} />
+          <StyledImage image={getImage(img)} />
         </Container>
-        <SectionSubtitle>{type}</SectionSubtitle>
-        <Title bold margin="4px 0">
-          {title}
-        </Title>
+        <SectionSubtitle>{title}</SectionSubtitle>
+        <Text small>{text}</Text>
       </Div>
     </Wrapper>
   );

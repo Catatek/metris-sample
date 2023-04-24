@@ -1,38 +1,38 @@
 [
   {
-    "label": "Real-Time Monitoring",
+    "label": "Asset Monitoring",
     "img": "../images/roadmap-icon.png",
     "value": "roadmapping",
-    "description": "Gain comprehensive, data-driven visibility."
+    "description": "Create digital twin of your portfolio of assets in minutes.  Track performance in real-time, spot maintenance needs early and manage your asset warranties in one place."
   },
   {
-    "label": "Advanced Control for Local Resources",
+    "label": "Contract Management",
     "img": "../images/risk-icon.png",
     "value": "risk",
-    "description": "Leverage DERs for cost, reliability, and sustainability."
+    "description": "All of your contracts in one place. Upload existing PPAs and service contracts to the platform or use our dashboard to create, negotiate and sign contracts digitally."
   },
   {
-    "label": "Scheduling and Markets Infrastructure",
+    "label": "Document Management",
     "img": "../images/strategic-icon.png",
     "value": "implementations",
-    "description": "Engage customers in a local energy community."
+    "description": "Upload and manage mission-critical documents and collaborate in one place instead of jumping between platforms."
   },
   {
-    "label": "Analytics and Forecasting",
+    "label": "Integrations",
     "img": "../images/product-mgmt-icon.png",
     "value": "management",
-    "description": "Put your data to work."
+    "description": "Integrate with your accounting & invoicing platforms, payment gateways, single-sign on (SSO) directory, or build custom workflows with webhooks."
   },
   {
-    "label": "Revenue Optimization",
+    "label": "Notifications",
     "img": "../images/design-icon.png",
     "value": "architecture",
-    "description": "Understand how to optimize DER revenue"
+    "description": "Keep everyone on the same page and eliminate switching between multiple platforms by collaborating with all stakeholders on one platform."
   },
   {
-    "label": "Peer-To-Peer Trading",
+    "label": "Performance Analytics",
     "img": "../images/software-icon.png",
     "value": "software_hardware",
-    "description": "online marketplace where prosumers and consumers can trade electricity."
+    "description": "Stay in the know with smart performance analytics designed to give you high-level insights on energy assets and customer KPIs."
   }
 ]

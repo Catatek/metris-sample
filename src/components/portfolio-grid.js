@@ -48,7 +48,7 @@ export const PortfolioGrid = ({ portfolio }) => {
               key={index}
               // slug={node.slug}
               title={node.title}
-              // productType={productType}
+              text={node.text}
               gradientStart={node.gradientStart}
               gradientEnd={node.gradientEnd}
               img={node.img}

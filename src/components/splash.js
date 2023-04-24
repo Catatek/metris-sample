@@ -40,8 +40,8 @@ const Container = styled.div`
 const StyledColumn = styled(Column)`
   margin-bottom: 40px;
   ${responsive.md`
-    width: 45%;
-    max-width: 500px;
+    width: 50%;
+    max-width: 600px;
     margin-bottom: 0;
   `}
 `;

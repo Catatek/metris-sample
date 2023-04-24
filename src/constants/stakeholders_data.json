@@ -1,20 +1,23 @@
 [
   {
-    "title": "Community Utilities",
-    "gradientStart": "ffbf56",
-    "gradientEnd": "ef733d",
+    "title": "Community Choice Aggregators",
+    "text": "Our cloud-based platform reduces admin time, anticipates maintenance needs and delivers performance analytics so you can focus on best serving your customers.",
+    "gradientStart": "fff",
+    "gradientEnd": "44FFD1",
     "img": "../images/community.png"
   },
   {
-    "title": "Investor Utilities",
-    "gradientStart": "135eb7",
-    "gradientEnd": "b058be",
+    "title": "Utilities",
+    "text": "We help forward thinking energy companies launch a renewables offering quickly and easily. Our Renewable asset management platform can be integrated into existing systems and processes.",
+    "gradientStart": "fff",
+    "gradientEnd": "44FFD1",
     "img": "../images/investor.png"
   },
   {
-    "title": "Generation Providers",
-    "gradientStart": "fa6d5c",
-    "gradientEnd": "fdd189",
+    "title": "Project Developers",
+    "text": "We help ambitious project developers expand their operations - by digitizing asset management, streamlining contract negotiation and automating reporting.",
+    "gradientStart": "fff",
+    "gradientEnd": "44FFD1",
     "img": "../images/generation.png"
   }
 ]
