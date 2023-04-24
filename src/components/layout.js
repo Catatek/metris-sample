@@ -29,7 +29,7 @@ export const Layout = ({ children }) => (
       />
       <meta
         property="og:description"
-        content="The Next Gen Utility Platform for Powering the Future. Software for Smart, Renewable Grid Orchestration"
+        content="Monitor, Manage, and Monetize with Software for Smart, Renewable Asset Management"
       />
     </Helmet>
     <GlobalStyle />
