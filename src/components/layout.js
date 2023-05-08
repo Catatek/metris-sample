@@ -6,7 +6,7 @@ import "normalize.css";
 import { Helmet } from "react-helmet";
 
 const Wrapper = styled.div`
-  height: auto;
+  height: 100vh;
   width: 100%;
   background: ${theme.offBlack};
 `;
@@ -35,6 +35,6 @@ export const Layout = ({ children }) => (
     <GlobalStyle />
     <Navigation />
     {children}
-    <Footer />
+    {/* <Footer /> */}
   </Wrapper>
 );

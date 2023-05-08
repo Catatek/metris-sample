@@ -24,17 +24,17 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <Splash
-        sectionSubtitle="Monitor, manage, monetize"
-        sectionTitle="Software for Smart, Renewable Asset Management"
-        sectionText="Experience our comprehensive renewables management platform, tailored for the evolving landscape of distributed energy resources and a sustainable future. Our platform is designed to offer system-wide visibility, enhanced administrative capabilities, and performance analytics."
+        sectionSubtitle="Coming Soon"
+        sectionTitle="Smart Billing for Renewable Assets"
+        sectionText="With our cutting-edge technology, you can track your energy generation, consumption, and sales in real-time, ensuring that you never miss a watt. Simplify your energy billing process and focus on what really matters -- growing your business and scaling renewable energy adoption."
         showBtn
         type="home"
       />
-      <PortfolioGrid portfolio={stakeholders_content} />
+      {/* <PortfolioGrid portfolio={stakeholders_content} />
 
       <ServicesGrid content={services_content} />
 
-      <Cta />
+      <Cta /> */}
     </Layout>
   );
 };

@@ -12,33 +12,35 @@ import { StaticImage } from "gatsby-plugin-image";
 import { openPopupWidget } from "react-calendly";
 
 const Wrapper = styled.div`
-  height: 100%;
   width: 100%;
-  padding: 40px 0;
+  padding: 0px 0;
   ${responsive.md`
-    padding: 100px 0;
+    padding: 0px 0;
   `}
 `;
 
 const Container = styled.div`
   margin: 0 auto;
-  width: 90%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding-top: 200px;
   ${responsive.sm`
     width: 65%;
   `}
   ${responsive.md`
+    padding-top: 200px;
     width: ${({ type }) => (type === "work" ? "65%" : "85%")};
-    flex-direction: row;
-    justify-content: space-between;
     min-height: 500px;
   `}
 `;
 
 const StyledColumn = styled(Column)`
   margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   ${responsive.md`
     width: 50%;
     max-width: 600px;
@@ -81,13 +83,13 @@ export const Splash = ({
             </Button>
           )}
         </StyledColumn>
-        <ImageWrapper>
+        {/* <ImageWrapper>
           <StaticImage
             src="../images/meter_splash.png"
             alt="Metris Energy Logo"
             placeholder="blurred"
           />
-        </ImageWrapper>
+        </ImageWrapper> */}
       </Container>
     </Wrapper>
   );

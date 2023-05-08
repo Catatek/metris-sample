@@ -7,13 +7,13 @@ export { theme, fonts, responsive } from "./utils";
 
 export const Title = styled.h1`
   font-family: ${fonts.sofiaPro};
-  font-size: 24px;
+  font-size: 38px;
   font-weight: bold;
-  line-height: 1.19;
+  line-height: 1.05;
   color: ${theme.white};
   margin: ${({ margin }) => margin || "8px 0"};
   ${responsive.lg`
-    font-size: 36px;
+    font-size: 56px;
   `}
 `;
 

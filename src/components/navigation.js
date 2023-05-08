@@ -28,6 +28,7 @@ const Container = styled.div`
   justify-content: space-between;
   ${responsive.md`
     width: 85%;
+    padding-top: 20px;
   `}
 `;
 
